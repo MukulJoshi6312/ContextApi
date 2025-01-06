@@ -40,12 +40,12 @@ const ToggleButton = () => {
         />
         <div
           className={`w-14 h-8 rounded-full transition-colors bg-white ${
-            themeMode === "dark" ? "bg-gray-700" : "bg-yellow-400"
+            themeMode === "dark" ? "bg-gray-600" : "bg-yellow-400"
           }`}
         ></div>
         <span
           className={`absolute left-1 top-1 w-6 h-6 bg-white rounded-full shadow-md transition-transform ${
-            themeMode === "dark" ? "transform translate-x-6 bg-gray-300" : ""
+            themeMode === "dark" ? "transform translate-x-6 bg-gray-800" : ""
           }`}
         ></span>
       </label>
