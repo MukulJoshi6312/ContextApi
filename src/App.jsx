@@ -75,6 +75,7 @@ function App() {
                 <div className="w-full max-w-2xl mx-auto shadow-md rounded-lg px-4 py-3 dark:text-white text-zinc-900">
                     <h1 className="text-2xl font-bold text-center mb-8 mt-2">Manage Your Todos</h1>
                     <ToggleButton/>
+
                     <div className="mb-4">
                         {/* Todo form goes here */} 
                         <TodoForm/>
